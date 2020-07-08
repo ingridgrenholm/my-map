@@ -37,7 +37,7 @@ class AddPlaceForm extends Component {
         <h1>Spara platsen i din lista</h1>
 
         <input
-          class="form__input"
+          className="form__input"
           type="text"
           placeholder="Namn"
           value={this.state.value}
