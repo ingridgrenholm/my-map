@@ -11,11 +11,11 @@ class AddPlaceForm extends Component {
       lat: "",
       lng: "",
     };
-    this.onTextChange = this.onTextChange.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
+    
+   
   }
 
-  onTextChange(event) {
+  onTextChange(event) =>  {
     this.setState({ value: event.target.value });
   }
 
