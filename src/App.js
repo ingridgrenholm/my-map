@@ -158,7 +158,7 @@ class MyMap extends Component {
         {!isEmpty(myPlaces) && (
           <GoogleMap
             bootstrapURLKeys={{
-              key: "AIzaSyAQqErv6aS94dMloNrjcRxLFdwru1ALebc",
+              key: "AIzaSyByBt_aI3OU66Ar69bbmAHA2WTBJwulbdM",
             }}
             center={this.state.center}
             zoom={this.state.zoom}
