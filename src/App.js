@@ -64,8 +64,6 @@ class MyMap extends Component {
       newlng: null,
     };
 
-    this.onAddPlace = this.onAddPlace.bind(this);
-    this.onListItemClick = this.onListItemClick.bind(this);
   }
 
   onMapClicked = ({ lat, lng }) => {
