@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Button, ListGroup, ListGroupItem } from "react-bootstrap";
 
 class List extends Component {
-  _handleListItemClick() {
+  handleListItemClick = () => {
     let center = [this.props.place.geo.lat, this.props.place.geo.lng];
     let zoom = 16;
     let show = this.props.place.show;
@@ -16,7 +16,7 @@ class List extends Component {
 
     return (
       <ListGroup>
-        <ListGroupItem onClick={this._handleListItemClick.bind(this)}>
+        <ListGroupItem onClick={this.handleListItemClick}>
           {name}
         </ListGroupItem>
       </ListGroup>
